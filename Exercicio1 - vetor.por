@@ -8,10 +8,7 @@ programa
 		para(i = 0; i < 5; i++)
 		{
 			vet[i] = 2
-		}
-		
-
-		
+		}	
 	}
 }
 /* $$$ Portugol Studio $$$ 
