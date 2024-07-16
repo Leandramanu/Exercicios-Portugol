@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro vet[4]
+
+		vet[0] = 3
+		vet[1] = 4
+		vet[2] = 7
+		vet[3] = 5
+	}
+}
