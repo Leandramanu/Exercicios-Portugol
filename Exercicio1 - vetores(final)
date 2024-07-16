@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro vet[4], i
+
+		para(i = 0; i < 4; i++)
+		{
+			vet[i] = 2 
+		}
+	
+		vet[0] = 3 + 4
+		vet[1] = 4 + 4
+		vet[2] = 7 + 4
+		vet[3] = 5 + 4
+
+		escreva(vet[0])
+		escreva(vet[1])
+		escreva(vet[2])
+		escreva(vet[3])
+		
+		
+		
+	}
+}
