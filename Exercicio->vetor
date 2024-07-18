@@ -1,0 +1,53 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+		/* Crie um vetor de tamanho 10 que seja preenchido de forma automatica
+		 *  Depois imprima:
+		 *  o maior valor
+		 *  a posição onde o primeiro numero maior que 5 aparece
+		 *  
+		 *  entrada: conjunto de valores inteiros (10)
+		 *  processamento: verifico e faço filtross (maior, menor, posição)
+		 *  saida: valores detalhados de maior, menor e posição > 5
+		 */
+
+		 inteiro vetor[10] // crie um vetor 10 (0, 1, 2,... 9)
+		 inteiro i, maior = 0, menor = 0, indiceM5 = 0, achou = 0
+
+		 para(i = 0; i <= 9; i++)
+		 {
+		 	vetor[i] = (u.sorteia(1, 100))
+
+		 	se(i == 0)
+		 	{
+		 		maior = vetor[i]
+		 		menor = vetor[i]
+		 	}
+		 	senao
+		 	{
+		 		se(vetor[i] > maior)
+		 		{
+		 			maior = vetor[i]
+		 		}
+		 		se(vetor[i] < menor)
+		 		{
+		 			menor = vetor[i]
+		 		}
+		 	}
+		 	se(vetor[i] > 5 e achou == 0)
+		 	{
+		 		indiceM5 = i
+		 		achou = 1 // 1 = verdadeiro (ou seja, encontrei o que procurava)
+		 	}
+		 	
+		 }
+
+		 escreva("\n O maior numero é: ", maior)
+		 escreva("\n O menor numero é: ", menor)
+		 escreva("\n O maior valor maior que 5 esta no indice: ", indiceM5)
+	}
+}
